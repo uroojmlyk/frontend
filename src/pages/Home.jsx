@@ -352,7 +352,7 @@ const Home = ({ addToCart }) => {
 
   const fetchCourses = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/courses');
+      const response = await fetch('https://backend-production-505a.up.railway.app/api/courses');
       const result = await response.json();
       console.log('API Response:', result); // Debug log
       

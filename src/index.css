@@ -1,6 +1,13 @@
-/* @tailwind base;
+/*  
+ @tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
+
+ 
+ 
+ 
+ 
+ 
 @layer utilities {
   .animate-gradient-x {
     animation: gradient-x 3s ease infinite;
@@ -15,4 +22,4 @@
       background-position: 100% 50%;
     }
   }
-}
+} */
